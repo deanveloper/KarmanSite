@@ -16,8 +16,7 @@ body {
 .navbar {
   width: 100%;
   height: 200px;
-  background-image: url(assets/pattern.png);
-  background-repeat;
+  background: repeat url(assets/pattern.png);
 
   display: flex;
   justify-content: space-between;
@@ -90,7 +89,7 @@ code {
   font-weight: 400;
 }
 
-#codes {
+.codes {
   font-size: 20px;
   opacity: .5;
   margin-top: -30px;
@@ -140,9 +139,8 @@ code {
 #credit {
   width: 100%;
   height: 50px;
-  position: absolute;
   bottom: 0;
-  margin-bottom: 15px;
+  margin: 20px 0;
   opacity: .5;
   text-align: center;
 }
