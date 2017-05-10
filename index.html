@@ -3,22 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Karman: Karma Tracking in Discord</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Karman</h1>
-<h2>The Karma Tracker for Discord</h2>
-<p><b>Upvote</b> messages with the ⬆️ (<code>:arrow_up:</code>) reaction!</p>
-<p><b>Downvote</b> messages with the ⬇️ (<code>:arrow_down:</code>) reaction!</p>
-<p><b>View people's karma</b> with the <code>!karma @name</code> command!</p>
-<button id="button" onclick="document.getElementById('link').click(this)">
-    Add Karman to your Discord!
-</button>
-
-<a href="https://discordapp.com/api/oauth2/authorize?client_id=305486631857684492&scope=bot&permissions=67111936"
-   target="_blank" id="link"></a>
-<p id="footer">Disclaimer: The website isn't the best because I don't do web design. Feel free to
-    <a href="https://github.com/Deanveloper/KarmanSite">contribute</a>! 💖</p>
+  <div class="navbar">
+    <div id="logo" class="navpos">
+      <img src="assets/logo.png" width="500px"/>
+      <p>The karma tracker for Discord.</p>
+    </div>
+    <a href=
+    "https://discordapp.com/api/oauth2/authorize?client_id=305486631857684492&scope=bot&permissions=67111936">
+    <div id="get" class="navpos">Install Karman on my server!</div></a>
+  </div>
 </body>
 </html>
